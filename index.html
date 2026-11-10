@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELGHAZALY WEB — IT313 Chapter 1</title>
+  <meta name="description"
+    content="Premium bilingual educational platform for IT313 Information & Computer Network Security — Chapter 1." />
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F172A'/%3E%3Cpath d='M10 7 L16 9.5 L22 7 L22 16 C22 20.5 19 24 16 25.5 C13 24 10 20.5 10 16 Z' stroke='%2306B6D4' stroke-width='1.8' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <svg viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#2563EB" />
+              <stop offset="100%" stop-color="#06B6D4" />
+            </linearGradient>
+          </defs>
+          <path d="M16 8 L32 14 L48 8 L48 28 C48 38 40 46 32 50 C24 46 16 38 16 28 Z" stroke="url(#lg)"
+            stroke-width="2.5" fill="none" stroke-linejoin="round" />
+          <path d="M24 24 L40 24 M24 30 L36 30 M24 36 L32 36" stroke="url(#lg)" stroke-width="2.5"
+            stroke-linecap="round" />
+          <circle cx="48" cy="14" r="3" fill="#06B6D4" />
+          <circle cx="16" cy="14" r="3" fill="#2563EB" />
+          <text x="64" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="700"
+            fill="currentColor">ELGHAZALY</text>
+          <text x="195" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="400"
+            fill="#06B6D4">WEB</text>
+        </svg>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active" data-key="navHome">Home</a></li>
+        <li><a href="#summary" data-key="navSummary">Summary</a></li>
+        <li><a href="#cases" data-key="navCases">Case Studies</a></li>
+        <li><a href="#quiz" data-key="navQuiz">Quiz</a></li>
+        <li><a href="#info" data-key="navInfo">Chapter Info</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">🌐 <span id="langLabel">AR</span></button>
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="icon-btn hamburger" id="hamburger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" data-key="navHome">Home</a>
+    <a href="#summary" data-key="navSummary">Summary</a>
+    <a href="#cases" data-key="navCases">Case Studies</a>
+    <a href="#quiz" data-key="navQuiz">Quiz</a>
+    <a href="#info" data-key="navInfo">Chapter Info</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="brand-pill" data-key="heroPill">ELGHAZALY WEB · IT313</span>
+        <h1 data-key="heroTitle">Introduction to Information and Computer Network Security</h1>
+        <p class="sub" data-key="heroSub">Learn the fundamentals of information security, cybersecurity objectives,
+          threats, attacks, and network security models.</p>
+
+        <div class="hero-meta">
+          <div class="meta-card">
+            <div class="label" data-key="metaCourse">Course</div>
+            <div class="value" data-key="metaCourseVal">IT313</div>
+          </div>
+          <div class="meta-card">
+            <div class="label" data-key="metaChapter">Chapter</div>
+            <div class="value" data-key="metaChapterVal">Chapter 1</div>
+          </div>
+          <div class="meta-card">
+            <div class="label" data-key="metaInstructor">Instructor</div>
+            <div class="value" data-key="metaInstructorVal">Dr. Marwa Salama</div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#summary" class="btn btn-primary" data-key="btnExplore">Explore Chapter →</a>
+          <a href="#quiz" class="btn btn-outline" data-key="btnStartQuiz">Start Quiz</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#2563EB" />
+              <stop offset="100%" stop-color="#06B6D4" />
+            </linearGradient>
+          </defs>
+          <circle cx="200" cy="200" r="170" fill="none" stroke="url(#hg)" stroke-width="1" opacity="0.3" />
+          <circle cx="200" cy="200" r="130" fill="none" stroke="url(#hg)" stroke-width="1" opacity="0.4" />
+          <circle cx="200" cy="200" r="90" fill="none" stroke="url(#hg)" stroke-width="1" opacity="0.5" />
+          <path d="M200 100 L280 130 L280 230 C280 280 240 320 200 340 C160 320 120 280 120 230 L120 130 Z"
+            stroke="url(#hg)" stroke-width="4" fill="rgba(37,99,235,0.08)" stroke-linejoin="round" />
+          <path d="M165 200 L190 225 L240 175" stroke="url(#hg)" stroke-width="6" fill="none" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <circle cx="200" cy="100" r="8" fill="#06B6D4" />
+          <circle cx="280" cy="130" r="8" fill="#2563EB" />
+          <circle cx="120" cy="130" r="8" fill="#06B6D4" />
+          <circle cx="280" cy="230" r="8" fill="#2563EB" />
+          <circle cx="120" cy="230" r="8" fill="#06B6D4" />
+          <circle cx="200" cy="340" r="8" fill="#2563EB" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section class="section section-alt" id="summary">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag" data-key="sumTag">Chapter Summary</span>
+        <h2 data-key="sumTitle">Complete Chapter Summary</h2>
+        <p data-key="sumSub">Organized, bilingual, and based directly on Chapter_1.pdf.</p>
+      </div>
+
+      <div class="search-wrap reveal">
+        <span class="icon">🔎</span>
+        <input type="text" id="summarySearch" data-key-ph="sumSearch" placeholder="Search topics..." />
+      </div>
+
+      <div id="accordionWrap"></div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="section" id="cases">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag" data-key="caseTag">Practice</span>
+        <h2 data-key="caseTitle">20 Case Studies</h2>
+        <p data-key="caseSub">Apply the chapter concepts to real-world cybersecurity scenarios.</p>
+      </div>
+      <div id="caseRoot"></div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section section-alt" id="quiz">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag" data-key="quizTag">Test Yourself</span>
+        <h2 data-key="quizTitle">Interactive Quiz</h2>
+        <p data-key="quizSub">15 questions · Practice & Exam modes · Bilingual</p>
+      </div>
+      <div id="quizRoot"></div>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="section" id="info">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag" data-key="infoTag">About</span>
+        <h2 data-key="infoTitle">Chapter Information</h2>
+        <p data-key="infoSub">All facts derived from the official Chapter_1.pdf.</p>
+      </div>
+      <div class="grid-3 reveal" id="infoGrid"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <svg viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg" style="height:34px;width:auto">
+              <defs>
+                <linearGradient id="flg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#2563EB" />
+                  <stop offset="100%" stop-color="#06B6D4" />
+                </linearGradient>
+              </defs>
+              <path d="M16 8 L32 14 L48 8 L48 28 C48 38 40 46 32 50 C24 46 16 38 16 28 Z" stroke="url(#flg)"
+                stroke-width="2.5" fill="none" stroke-linejoin="round" />
+              <text x="64" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="700"
+                fill="#fff">ELGHAZALY</text>
+              <text x="195" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="400"
+                fill="#06B6D4">WEB</text>
+            </svg>
+          </div>
+          <p data-key="footerTagline">Premium bilingual educational platform.</p>
+        </div>
+        <div>
+          <h5 data-key="footerQuick">Quick Links</h5>
+          <ul>
+            <li><a href="#home" data-key="navHome">Home</a></li>
+            <li><a href="#summary" data-key="navSummary">Summary</a></li>
+            <li><a href="#cases" data-key="navCases">Case Studies</a></li>
+            <li><a href="#quiz" data-key="navQuiz">Quiz</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 data-key="footerAbout">About</h5>
+          <p data-key="footerCredit">Content based on IT313 — Chapter 1 · Dr. Marwa Salama</p>
+        </div>
+      </div>
+      <div class="footer-bottom" data-key="footerCopyright">© 2025 ELGHAZALY WEB. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Scroll top -->
+  <button id="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
