@@ -5,99 +5,173 @@
 /* ---------- 1. TRANSLATIONS ---------- */
 const T = {
     en: {
-        navHome: "Home", navSummary: "Summary", navCases: "Case Studies", navQuiz: "Quiz", navInfo: "Chapter Info",
+        navHome: "Home",
+        navSummary: "Summary",
+        navCases: "Case Studies",
+        navQuiz: "Quiz",
+        navInfo: "Chapter Info",
         heroPill: "ELGHAZALY WEB · IT313",
         heroTitle: "Introduction to Information and Computer Network Security",
         heroSub: "Learn the fundamentals of information security, cybersecurity objectives, threats, attacks, and network security models.",
-        metaCourse: "Course", metaCourseVal: "IT313",
-        metaChapter: "Chapter", metaChapterVal: "Chapter 1",
-        metaInstructor: "Instructor", metaInstructorVal: "Dr. Marwa Salama",
-        btnExplore: "Explore Chapter →", btnStartQuiz: "Start Quiz",
-        sumTag: "Chapter Summary", sumTitle: "Complete Chapter Summary",
+        metaCourse: "Course",
+        metaCourseVal: "IT313",
+        metaChapter: "Chapter",
+        metaChapterVal: "Chapter 1",
+        metaInstructor: "Instructor",
+        metaInstructorVal: "Dr. Marwa Salama",
+        btnExplore: "Explore Chapter →",
+        btnStartQuiz: "Start Quiz",
+        sumTag: "Chapter Summary",
+        sumTitle: "Complete Chapter Summary",
         sumSub: "Organized, bilingual, and based directly on Chapter_1.pdf.",
         sumSearch: "Search topics...",
-        caseTag: "Practice", caseTitle: "20 Case Studies",
+        caseTag: "Practice",
+        caseTitle: "20 Case Studies",
         caseSub: "Apply the chapter concepts to real-world cybersecurity scenarios.",
-        quizTag: "Test Yourself", quizTitle: "Interactive Quiz",
+        quizTag: "Test Yourself",
+        quizTitle: "Interactive Quiz",
         quizSub: "15 questions · Practice & Exam modes · Bilingual",
-        infoTag: "About", infoTitle: "Chapter Information",
+        infoTag: "About",
+        infoTitle: "Chapter Information",
         infoSub: "All facts derived from the official Chapter_1.pdf.",
         footerTagline: "Premium bilingual educational platform.",
-        footerQuick: "Quick Links", footerAbout: "About",
+        footerQuick: "Quick Links",
+        footerAbout: "About",
         footerCredit: "Content based on IT313 — Chapter 1 · Dr. Marwa Salama",
         footerCopyright: "© 2025 ELGHAZALY WEB. All rights reserved.",
         // cases
-        casePrev: "Previous", caseNext: "Next Case", caseFinish: "Finish & See Results",
-        caseReview: "Review Answers", caseRestart: "Restart Case Studies",
-        caseScenario: "Scenario", caseQuestion: "Question", caseExplanation: "Explanation",
+        casePrev: "Previous",
+        caseNext: "Next Case",
+        caseFinish: "Finish & See Results",
+        caseReview: "Review Answers",
+        caseRestart: "Restart Case Studies",
+        caseScenario: "Scenario",
+        caseQuestion: "Question",
+        caseExplanation: "Explanation",
         caseRelated: "Related Objective",
         caseResultTitle: "Case Studies Complete",
-        caseScore: "Score", caseCorrect: "Correct", caseIncorrect: "Incorrect",
+        caseScore: "Score",
+        caseCorrect: "Correct",
+        caseIncorrect: "Incorrect",
         // quiz
-        quizPractice: "Practice Mode", quizPracticeDesc: "See instant feedback after each answer.",
-        quizExam: "Exam Mode", quizExamDesc: "Feedback only after final submission.",
-        quizPrev: "Previous", quizNext: "Next", quizFinish: "Finish Quiz",
+        quizPractice: "Practice Mode",
+        quizPracticeDesc: "See instant feedback after each answer.",
+        quizExam: "Exam Mode",
+        quizExamDesc: "Feedback only after final submission.",
+        quizPrev: "Previous",
+        quizNext: "Next",
+        quizFinish: "Finish Quiz",
         quizConfirmFinish: "You still have unanswered questions. Submit anyway?",
-        quizReview: "Review Answers", quizRestart: "Restart Quiz",
+        quizReview: "Review Answers",
+        quizRestart: "Restart Quiz",
         quizResultTitle: "Quiz Complete",
-        quizCorrect: "Correct", quizIncorrect: "Incorrect", quizUnanswered: "Unanswered",
+        quizCorrect: "Correct",
+        quizIncorrect: "Incorrect",
+        quizUnanswered: "Unanswered",
         quizScore: "Score",
-        perfExcellent: "Excellent", perfVeryGood: "Very Good",
-        perfGood: "Good", perfNeeds: "Needs Improvement", perfKeep: "Keep Practicing",
+        perfExcellent: "Excellent",
+        perfVeryGood: "Very Good",
+        perfGood: "Good",
+        perfNeeds: "Needs Improvement",
+        perfKeep: "Keep Practicing",
         // info
-        infoCourseLbl: "Course", infoCourseVal: "IT313 — Information and Computer Network Security",
-        infoChapterLbl: "Chapter", infoChapterVal: "Chapter 1 — Introduction",
-        infoInstructorLbl: "Instructor", infoInstructorVal: "Dr. Marwa Salama",
-        infoPrereqLbl: "Prerequisite", infoPrereqVal: "Fundamentals of Information Technology",
-        infoBrandLbl: "Brand", infoBrandVal: "ELGHAZALY WEB",
-        infoStackLbl: "Tech Stack", infoStackVal: "HTML5 · CSS3 · Vanilla JavaScript",
-        toastLang: "Language switched", toastTheme: "Theme updated"
+        infoCourseLbl: "Course",
+        infoCourseVal: "IT313 — Information and Computer Network Security",
+        infoChapterLbl: "Chapter",
+        infoChapterVal: "Chapter 1 — Introduction",
+        infoInstructorLbl: "Instructor",
+        infoInstructorVal: "Dr. Marwa Salama",
+        infoPrereqLbl: "Prerequisite",
+        infoPrereqVal: "Fundamentals of Information Technology",
+        infoBrandLbl: "Brand",
+        infoBrandVal: "ELGHAZALY WEB",
+        infoStackLbl: "Tech Stack",
+        infoStackVal: "HTML5 · CSS3 · Vanilla JavaScript",
+        toastLang: "Language switched",
+        toastTheme: "Theme updated"
     },
     ar: {
-        navHome: "الرئيسية", navSummary: "الملخص", navCases: "دراسات الحالة", navQuiz: "الاختبار", navInfo: "معلومات الفصل",
+        navHome: "الرئيسية",
+        navSummary: "الملخص",
+        navCases: "دراسات الحالة",
+        navQuiz: "الاختبار",
+        navInfo: "معلومات الفصل",
         heroPill: "الغزالي ويب · IT313",
         heroTitle: "مقدمة في أمن المعلومات والشبكات الحاسوبية",
         heroSub: "تعلّم أساسيات أمن المعلومات، أهداف الأمن السيبراني، التهديدات، الهجمات، ونماذج أمن الشبكات.",
-        metaCourse: "المقرر", metaCourseVal: "IT313",
-        metaChapter: "الفصل", metaChapterVal: "الفصل الأول",
-        metaInstructor: "المحاضر", metaInstructorVal: "د. مروة سلامة",
-        btnExplore: "استكشف الفصل ←", btnStartQuiz: "ابدأ الاختبار",
-        sumTag: "ملخص الفصل", sumTitle: "ملخص شامل للفصل",
+        metaCourse: "المقرر",
+        metaCourseVal: "IT313",
+        metaChapter: "الفصل",
+        metaChapterVal: "الفصل الأول",
+        metaInstructor: "المحاضر",
+        metaInstructorVal: "د. مروة سلامة",
+        btnExplore: "استكشف الفصل ←",
+        btnStartQuiz: "ابدأ الاختبار",
+        sumTag: "ملخص الفصل",
+        sumTitle: "ملخص شامل للفصل",
         sumSub: "منظّم، ثنائي اللغة، ومبني مباشرةً على Chapter_1.pdf.",
         sumSearch: "ابحث في الموضوعات...",
-        caseTag: "تدريب", caseTitle: "20 دراسة حالة",
+        caseTag: "تدريب",
+        caseTitle: "20 دراسة حالة",
         caseSub: "طبّق مفاهيم الفصل على سيناريوهات واقعية في الأمن السيبراني.",
-        quizTag: "اختبر نفسك", quizTitle: "اختبار تفاعلي",
+        quizTag: "اختبر نفسك",
+        quizTitle: "اختبار تفاعلي",
         quizSub: "15 سؤالاً · وضع تدريب ووضع امتحان · ثنائي اللغة",
-        infoTag: "حول", infoTitle: "معلومات الفصل",
+        infoTag: "حول",
+        infoTitle: "معلومات الفصل",
         infoSub: "جميع الحقائق مستمدة من Chapter_1.pdf الرسمي.",
         footerTagline: "منصة تعليمية احترافية ثنائية اللغة.",
-        footerQuick: "روابط سريعة", footerAbout: "حول",
+        footerQuick: "روابط سريعة",
+        footerAbout: "حول",
         footerCredit: "المحتوى مبني على IT313 — الفصل الأول · د. مروة سلامة",
         footerCopyright: "© 2025 الغزالي ويب. جميع الحقوق محفوظة.",
-        casePrev: "السابق", caseNext: "الحالة التالية", caseFinish: "إنهاء وعرض النتائج",
-        caseReview: "مراجعة الإجابات", caseRestart: "إعادة دراسات الحالة",
-        caseScenario: "السيناريو", caseQuestion: "السؤال", caseExplanation: "التوضيح",
+        casePrev: "السابق",
+        caseNext: "الحالة التالية",
+        caseFinish: "إنهاء وعرض النتائج",
+        caseReview: "مراجعة الإجابات",
+        caseRestart: "إعادة دراسات الحالة",
+        caseScenario: "السيناريو",
+        caseQuestion: "السؤال",
+        caseExplanation: "التوضيح",
         caseRelated: "الهدف المرتبط",
         caseResultTitle: "اكتملت دراسات الحالة",
-        caseScore: "النتيجة", caseCorrect: "صحيح", caseIncorrect: "خطأ",
-        quizPractice: "وضع التدريب", quizPracticeDesc: "اعرض التغذية الراجعة فوراً بعد كل إجابة.",
-        quizExam: "وضع الامتحان", quizExamDesc: "التغذية الراجعة بعد التسليم النهائي فقط.",
-        quizPrev: "السابق", quizNext: "التالي", quizFinish: "إنهاء الاختبار",
+        caseScore: "النتيجة",
+        caseCorrect: "صحيح",
+        caseIncorrect: "خطأ",
+        quizPractice: "وضع التدريب",
+        quizPracticeDesc: "اعرض التغذية الراجعة فوراً بعد كل إجابة.",
+        quizExam: "وضع الامتحان",
+        quizExamDesc: "التغذية الراجعة بعد التسليم النهائي فقط.",
+        quizPrev: "السابق",
+        quizNext: "التالي",
+        quizFinish: "إنهاء الاختبار",
         quizConfirmFinish: "لديك أسئلة لم تُجب عنها. هل تريد التسليم على أي حال؟",
-        quizReview: "مراجعة الإجابات", quizRestart: "إعادة الاختبار",
+        quizReview: "مراجعة الإجابات",
+        quizRestart: "إعادة الاختبار",
         quizResultTitle: "اكتمل الاختبار",
-        quizCorrect: "صحيح", quizIncorrect: "خطأ", quizUnanswered: "بدون إجابة",
+        quizCorrect: "صحيح",
+        quizIncorrect: "خطأ",
+        quizUnanswered: "بدون إجابة",
         quizScore: "النتيجة",
-        perfExcellent: "ممتاز", perfVeryGood: "جيد جداً",
-        perfGood: "جيد", perfNeeds: "يحتاج تحسين", perfKeep: "استمر في التدريب",
-        infoCourseLbl: "المقرر", infoCourseVal: "IT313 — أمن المعلومات والشبكات الحاسوبية",
-        infoChapterLbl: "الفصل", infoChapterVal: "الفصل الأول — مقدمة",
-        infoInstructorLbl: "المحاضر", infoInstructorVal: "د. مروة سلامة",
-        infoPrereqLbl: "المتطلب السابق", infoPrereqVal: "أساسيات تكنولوجيا المعلومات",
-        infoBrandLbl: "العلامة", infoBrandVal: "الغزالي ويب",
-        infoStackLbl: "التقنيات", infoStackVal: "HTML5 · CSS3 · JavaScript",
-        toastLang: "تم تغيير اللغة", toastTheme: "تم تحديث المظهر"
+        perfExcellent: "ممتاز",
+        perfVeryGood: "جيد جداً",
+        perfGood: "جيد",
+        perfNeeds: "يحتاج تحسين",
+        perfKeep: "استمر في التدريب",
+        infoCourseLbl: "المقرر",
+        infoCourseVal: "IT313 — أمن المعلومات والشبكات الحاسوبية",
+        infoChapterLbl: "الفصل",
+        infoChapterVal: "الفصل الأول — مقدمة",
+        infoInstructorLbl: "المحاضر",
+        infoInstructorVal: "د. مروة سلامة",
+        infoPrereqLbl: "المتطلب السابق",
+        infoPrereqVal: "أساسيات تكنولوجيا المعلومات",
+        infoBrandLbl: "العلامة",
+        infoBrandVal: "الغزالي ويب",
+        infoStackLbl: "التقنيات",
+        infoStackVal: "HTML5 · CSS3 · JavaScript",
+        toastLang: "تم تغيير اللغة",
+        toastTheme: "تم تحديث المظهر"
     }
 };
 
@@ -112,17 +186,21 @@ const t = (k) => T[state.lang][k] || k;
 
 /* ---------- 3. SUMMARY DATA ---------- */
 const SUMMARY = {
-    en: [
-        {
-            id: "course-info", title: "Course Information", content: `
+    en: [{
+            id: "course-info",
+            title: "Course Information",
+            content: `
       <ul>
         <li><strong>Course:</strong> IT313 — Information and Computer Network Security</li>
         <li><strong>Prerequisite:</strong> Fundamentals of Information Technology</li>
         <li><strong>Instructor:</strong> Dr. Marwa Salama</li>
         <li><strong>Chapter:</strong> Chapter 1 — Introduction to Information and Computer Network Security</li>
-      </ul>` },
+      </ul>`
+        },
         {
-            id: "objectives", title: "Course Objectives", content: `
+            id: "objectives",
+            title: "Course Objectives",
+            content: `
       <ul>
         <li><strong>Security Fundamentals:</strong> Explain the basic concepts of information and network security.</li>
         <li><strong>Encryption Techniques:</strong> Apply classical encryption techniques and basic and advanced encryption.</li>
@@ -130,46 +208,64 @@ const SUMMARY = {
         <li><strong>Hashing &amp; Signatures:</strong> Use hash functions, authentication, and digital signatures.</li>
         <li><strong>Network &amp; Web Security:</strong> Describe email, network (firewalls), and web security.</li>
         <li><strong>Steganography &amp; Watermarking:</strong> Recognize digital steganography and watermarking techniques.</li>
-      </ul>` },
+      </ul>`
+        },
         {
-            id: "grading", title: "Grading Distribution", content: `
+            id: "grading",
+            title: "Grading Distribution",
+            content: `
       <p>Total: <strong>100 marks</strong></p>
       <div class="grading-grid">
         <div class="grade-card"><div class="row"><span>Final Exam</span><strong>50%</strong></div><div class="bar final"><span data-w="50%"></span></div></div>
         <div class="grade-card"><div class="row"><span>Midterm Exam</span><strong>25%</strong></div><div class="bar mid"><span data-w="25%"></span></div></div>
         <div class="grade-card"><div class="row"><span>Practical Exam</span><strong>15%</strong></div><div class="bar prac"><span data-w="15%"></span></div></div>
         <div class="grade-card"><div class="row"><span>Activities</span><strong>10%</strong></div><div class="bar act"><span data-w="10%"></span></div></div>
-      </div>` },
+      </div>`
+        },
         {
-            id: "chapter-objectives", title: "Chapter Objectives", content: `
+            id: "chapter-objectives",
+            title: "Chapter Objectives",
+            content: `
       <h4>Vocabulary &amp; Concepts</h4>
       <ul><li>Define information, network, and cybersecurity.</li><li>Explain the CIA triad and extended security objectives (authenticity, non-repudiation, accountability).</li></ul>
       <h4>Threats &amp; Attacks</h4>
       <ul><li>Differentiate threats, vulnerabilities, risks, and attacks.</li><li>Classify passive vs. active attacks.</li><li>Identify malware and social-engineering categories.</li></ul>
       <h4>Models &amp; Standards</h4>
-      <ul><li>Describe the general model of network security.</li><li>Explain the ITU-T X.800 architecture.</li><li>Recognize major international security standards and frameworks.</li></ul>` },
+      <ul><li>Describe the general model of network security.</li><li>Explain the ITU-T X.800 architecture.</li><li>Recognize major international security standards and frameworks.</li></ul>`
+        },
         {
-            id: "definitions", title: "Core Definitions", content: `
+            id: "definitions",
+            title: "Core Definitions",
+            content: `
       <ul>
         <li><strong>Information Security:</strong> Protection of information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction, regardless of form.</li>
         <li><strong>Computer Security:</strong> Protection of hardware, OS, and software of individual computer systems, including data they store and process.</li>
         <li><strong>Network Security:</strong> Protection of communication infrastructure and data while in transit.</li>
         <li><strong>Cybersecurity:</strong> Broadest term; encompasses the above and addresses critical infrastructure, user safety, and geopolitical dimensions.</li>
-      </ul>` },
+      </ul>`
+        },
         {
-            id: "why", title: "Why Information &amp; Network Security Matters", content: `
-      <ul><li>Ubiquitous connectivity (expanding attack surface)</li><li>Digital transformation of critical infrastructure</li><li>Economic value of monetizable data</li><li>Professionalization of cybercrime (e.g., ransomware-as-a-service)</li><li>Nation-state involvement in espionage/sabotage</li></ul>` },
+            id: "why",
+            title: "Why Information &amp; Network Security Matters",
+            content: `
+      <ul><li>Ubiquitous connectivity (expanding attack surface)</li><li>Digital transformation of critical infrastructure</li><li>Economic value of monetizable data</li><li>Professionalization of cybercrime (e.g., ransomware-as-a-service)</li><li>Nation-state involvement in espionage/sabotage</li></ul>`
+        },
         {
-            id: "history", title: "A Brief Historical Perspective", content: `
+            id: "history",
+            title: "A Brief Historical Perspective",
+            content: `
       <div class="timeline">
         <div class="timeline-item"><div class="year">1960s–70s</div><div class="desc">Physical &amp; procedural security</div></div>
         <div class="timeline-item"><div class="year">1970s–80s</div><div class="desc">Foundational cryptography &amp; access control</div></div>
         <div class="timeline-item"><div class="year">1990s</div><div class="desc">Internet era (worms, firewalls)</div></div>
         <div class="timeline-item"><div class="year">2000s</div><div class="desc">E-commerce &amp; regulation (HIPAA, GDPR)</div></div>
         <div class="timeline-item"><div class="year">2010s–present</div><div class="desc">Advanced Persistent Threats (APTs) &amp; IoT</div></div>
-      </div>` },
+      </div>`
+        },
         {
-            id: "roles", title: "Roles &amp; Responsibilities", content: `
+            id: "roles",
+            title: "Roles &amp; Responsibilities",
+            content: `
       <div class="grid-3">
         <div class="mini-card"><h5>CISO</h5><p>Sets organizational strategy and policy.</p></div>
         <div class="mini-card"><h5>Security Engineer</h5><p>Designs and implements security infrastructure.</p></div>
@@ -177,9 +273,12 @@ const SUMMARY = {
         <div class="mini-card"><h5>Security Analyst</h5><p>Monitors systems and supports incident response.</p></div>
         <div class="mini-card"><h5>Penetration Tester</h5><p>Simulates real attacks to discover vulnerabilities.</p></div>
         <div class="mini-card"><h5>End User</h5><p>Follows policy; often the first line of defense.</p></div>
-      </div>` },
+      </div>`
+        },
         {
-            id: "legal", title: "Legal &amp; Ethical Considerations", content: `
+            id: "legal",
+            title: "Legal &amp; Ethical Considerations",
+            content: `
       <div class="table-wrap"><table>
         <thead><tr><th>Dimension</th><th>Ethical Hacking</th><th>Unauthorized Intrusion</th></tr></thead>
         <tbody>
@@ -189,48 +288,66 @@ const SUMMARY = {
           <tr><td>Legal status</td><td>Lawful</td><td>Criminal offense</td></tr>
         </tbody>
       </table></div>
-      <p style="margin-top:12px">Unauthorized access is a criminal offense globally. <strong>Egypt's Anti-Cyber and Information Technology Crimes Law (Law No. 175 of 2018)</strong> criminalizes unauthorized access to information systems.</p>` },
+      <p style="margin-top:12px">Unauthorized access is a criminal offense globally. <strong>Egypt's Anti-Cyber and Information Technology Crimes Law (Law No. 175 of 2018)</strong> criminalizes unauthorized access to information systems.</p>`
+        },
         {
-            id: "cia", title: "The CIA Triad", content: `
+            id: "cia",
+            title: "The CIA Triad",
+            content: `
       <div class="grid-3">
         <div class="mini-card"><h5>Confidentiality</h5><p>Ensures that information is not disclosed to unauthorized individuals, entities, or processes.</p></div>
         <div class="mini-card"><h5>Integrity</h5><p>Ensures that information is not altered in an unauthorized or undetected manner.</p></div>
         <div class="mini-card"><h5>Availability</h5><p>Ensures that systems and data are accessible and usable in a timely manner to authorized users whenever needed.</p></div>
       </div>
-      <p style="margin-top:12px"><em>[Example] Hospital database: confidentiality protects records, integrity ensures correct blood types, availability ensures access during emergencies.</em></p>` },
+      <p style="margin-top:12px"><em>[Example] Hospital database: confidentiality protects records, integrity ensures correct blood types, availability ensures access during emergencies.</em></p>`
+        },
         {
-            id: "extended", title: "Extended Security Objectives", content: `
+            id: "extended",
+            title: "Extended Security Objectives",
+            content: `
       <ul>
         <li><strong>Authenticity:</strong> Verifying a message, transaction, or party is genuine.</li>
         <li><strong>Non-repudiation:</strong> Assurance a party cannot deny having sent or received a message.</li>
         <li><strong>Accountability:</strong> Tracing actions uniquely to an entity (logging/auditing).</li>
         <li><strong>Access Control:</strong> Limiting and controlling access to systems and applications.</li>
-      </ul>` },
+      </ul>`
+        },
         {
-            id: "t-v-r-a", title: "Threats, Vulnerabilities, Risks, and Attacks", content: `
+            id: "t-v-r-a",
+            title: "Threats, Vulnerabilities, Risks, and Attacks",
+            content: `
       <div class="grid-2">
         <div class="mini-card"><h5>Vulnerability</h5><p>A weakness in a system's design, implementation, or operation that could be exploited.</p><p><em>Example: Unpatched software bug.</em></p></div>
         <div class="mini-card"><h5>Threat</h5><p>A potential cause of an unwanted incident, which may exploit a vulnerability to cause harm.</p><p><em>Example: Malicious actor aware of the bug.</em></p></div>
         <div class="mini-card"><h5>Risk</h5><p>The likelihood that a given threat will exploit a given vulnerability, combined with the resulting impact.</p><p><em>Example: Probability of exploit × financial damage.</em></p></div>
         <div class="mini-card"><h5>Attack</h5><p>A deliberate attempt (successful or not) to exploit a vulnerability and violate a security objective.</p><p><em>Example: Sending crafted packet to trigger bug.</em></p></div>
-      </div>` },
+      </div>`
+        },
         {
-            id: "pma", title: "Security Policy, Mechanisms, and Assurance", content: `
+            id: "pma",
+            title: "Security Policy, Mechanisms, and Assurance",
+            content: `
       <ul>
         <li><strong>Policy (What):</strong> Formal statement of what is permitted.</li>
         <li><strong>Mechanism (How):</strong> Process or device designed to enforce policy.</li>
         <li><strong>Assurance (Confidence):</strong> Degree of confidence mechanisms enforce policy.</li>
       </ul>
-      <p><em>[Example] Locked door: Policy = 'staff only', Mechanism = 'lock/key', Assurance = 'lock can't be easily picked'.</em></p>` },
+      <p><em>[Example] Locked door: Policy = 'staff only', Mechanism = 'lock/key', Assurance = 'lock can't be easily picked'.</em></p>`
+        },
         {
-            id: "defense", title: "Defense in Depth &amp; Least Privilege", content: `
+            id: "defense",
+            title: "Defense in Depth &amp; Least Privilege",
+            content: `
       <ul>
         <li><strong>Defense in Depth:</strong> Layering multiple, independent security mechanisms so that the failure of any one layer does not result in a complete compromise.</li>
         <li><strong>Principle of Least Privilege:</strong> Every user, process, and system component should operate with the minimum set of permissions necessary to perform its function, and no more.</li>
       </ul>
-      <p>Layers: Data Core → Perimeter Security → Host Security → Application Security → Data Security.</p>` },
+      <p>Layers: Data Core → Perimeter Security → Host Security → Application Security → Data Security.</p>`
+        },
         {
-            id: "principles", title: "Classic Security Design Principles", content: `
+            id: "principles",
+            title: "Classic Security Design Principles",
+            content: `
       <div class="table-wrap"><table><tbody>
         <tr><td><strong>Economy of Mechanism</strong></td><td>Keep security-critical components simple and small.</td></tr>
         <tr><td><strong>Fail-Safe Defaults</strong></td><td>Base access on explicit permission; default is denial.</td></tr>
@@ -239,15 +356,21 @@ const SUMMARY = {
         <tr><td><strong>Separation of Privilege</strong></td><td>Require two or more independent conditions to grant access.</td></tr>
         <tr><td><strong>Least Common Mechanism</strong></td><td>Minimize shared mechanism between users.</td></tr>
         <tr><td><strong>Psychological Acceptability</strong></td><td>Mechanisms must be easy to use.</td></tr>
-      </tbody></table></div>` },
+      </tbody></table></div>`
+        },
         {
-            id: "passive-active", title: "Passive vs Active Attacks", content: `
+            id: "passive-active",
+            title: "Passive vs Active Attacks",
+            content: `
       <div class="grid-2">
         <div class="mini-card"><h5>Passive Attacks</h5><p>Attempts to learn or make use of information without affecting system resources (observation only).</p><p><em>Types: Release of message contents, Traffic analysis.</em></p><p><em>Emphasis on PREVENTION (e.g., encryption).</em></p></div>
         <div class="mini-card"><h5>Active Attacks</h5><p>Attempts to alter system resources or affect their operation.</p><p><em>Types: Masquerade, Replay, Modification of messages, DoS.</em></p><p><em>Emphasis on DETECTION and recovery.</em></p></div>
-      </div>` },
+      </div>`
+        },
         {
-            id: "malware", title: "Malicious Software (Malware)", content: `
+            id: "malware",
+            title: "Malicious Software (Malware)",
+            content: `
       <div class="grid-3">
         <div class="mini-card"><h5>Virus</h5><p>Attaches to a legitimate host program; requires human action to propagate.</p></div>
         <div class="mini-card"><h5>Worm</h5><p>Standalone program; self-replicates and spreads autonomously.</p></div>
@@ -257,9 +380,12 @@ const SUMMARY = {
         <div class="mini-card"><h5>Rootkit</h5><p>Modifies OS to conceal presence of malicious activity.</p></div>
         <div class="mini-card"><h5>Botnet Agent</h5><p>Connects infected machine to a remotely controlled network.</p></div>
       </div>
-      <p style="margin-top:12px"><strong>Crucial boundary:</strong> Viruses need human action; Worms spread autonomously. Ransomware is a PAYLOAD, not a propagation method.</p>` },
+      <p style="margin-top:12px"><strong>Crucial boundary:</strong> Viruses need human action; Worms spread autonomously. Ransomware is a PAYLOAD, not a propagation method.</p>`
+        },
         {
-            id: "social", title: "Social Engineering", content: `
+            id: "social",
+            title: "Social Engineering",
+            content: `
       <ul>
         <li><strong>Phishing:</strong> Fraudulent messages mimicking trusted entities.</li>
         <li><strong>Spear phishing:</strong> Targeted phishing using personalized info.</li>
@@ -267,18 +393,24 @@ const SUMMARY = {
         <li><strong>Baiting:</strong> Physical/digital lures (e.g., infected USB).</li>
         <li><strong>Tailgating:</strong> Physical access by following an authorized person.</li>
       </ul>
-      <p><em>[Example] Social engineering bypasses technical controls entirely. User-awareness training is a formal security mechanism on equal footing with firewalls.</em></p>` },
+      <p><em>[Example] Social engineering bypasses technical controls entirely. User-awareness training is a formal security mechanism on equal footing with firewalls.</em></p>`
+        },
         {
-            id: "network-attacks", title: "Network-Level Attacks", content: `
+            id: "network-attacks",
+            title: "Network-Level Attacks",
+            content: `
       <ul>
         <li>Man-in-the-Middle (MITM)</li>
         <li>Distributed Denial of Service (DDoS)</li>
         <li>Session hijacking</li>
         <li>Packet sniffing</li>
         <li>IP spoofing</li>
-      </ul>` },
+      </ul>`
+        },
         {
-            id: "threat-actors", title: "Threat Actors", content: `
+            id: "threat-actors",
+            title: "Threat Actors",
+            content: `
       <div class="table-wrap"><table>
         <thead><tr><th>Actor</th><th>Motivation / Skill</th></tr></thead>
         <tbody>
@@ -289,9 +421,12 @@ const SUMMARY = {
           <tr><td>Insiders</td><td>Misuse of legitimate access.</td></tr>
         </tbody>
       </table></div>
-      <p style="margin-top:12px"><strong>Insider Threats:</strong> Malicious (deliberate, countered by least privilege) vs. Negligent (unintentional, countered by training/safeguards).</p>` },
+      <p style="margin-top:12px"><strong>Insider Threats:</strong> Malicious (deliberate, countered by least privilege) vs. Negligent (unintentional, countered by training/safeguards).</p>`
+        },
         {
-            id: "attack-anatomy", title: "Attack Surface, Vectors, APTs, Attack Anatomy", content: `
+            id: "attack-anatomy",
+            title: "Attack Surface, Vectors, APTs, Attack Anatomy",
+            content: `
       <ul>
         <li><strong>Attack Surface:</strong> Complete set of entry/extraction points.</li>
         <li><strong>Attack Vector:</strong> Specific path used to gain access.</li>
@@ -300,9 +435,12 @@ const SUMMARY = {
       </ul>
       <p><strong>Anatomy of a Typical Attack (7 steps):</strong></p>
       <ol><li>Reconnaissance</li><li>Weaponization</li><li>Delivery</li><li>Exploitation</li><li>Installation</li><li>Command and Control</li><li>Actions on Objectives</li></ol>
-      <p><em>Defenders only need to interrupt the chain at a SINGLE point to defeat the overall attack. Early detection is critical.</em></p>` },
+      <p><em>Defenders only need to interrupt the chain at a SINGLE point to defeat the overall attack. Early detection is critical.</em></p>`
+        },
         {
-            id: "incidents", title: "Notable Historical Incidents", content: `
+            id: "incidents",
+            title: "Notable Historical Incidents",
+            content: `
       <div class="table-wrap"><table>
         <thead><tr><th>Year</th><th>Incident</th><th>Primary Category</th></tr></thead>
         <tbody>
@@ -313,14 +451,20 @@ const SUMMARY = {
           <tr><td>2020</td><td>Supply-chain compromise</td><td>Compromise of trusted software update mechanism.</td></tr>
         </tbody>
       </table></div>
-      <p style="margin-top:12px"><strong>Core Lesson:</strong> Sophisticated cryptography is necessary but not sufficient. Timely patching, segmentation, and least privilege are equally critical.</p>` },
+      <p style="margin-top:12px"><strong>Core Lesson:</strong> Sophisticated cryptography is necessary but not sufficient. Timely patching, segmentation, and least privilege are equally critical.</p>`
+        },
         {
-            id: "general-model", title: "General Model of Network Security", content: `
+            id: "general-model",
+            title: "General Model of Network Security",
+            content: `
       <p>Flow: <strong>Sender</strong> (with security-related transformation + secret information) → <strong>Information Channel</strong> (e.g., Public Internet) → <strong>Receiver</strong>. A <strong>Trusted Third Party</strong> coordinates between both sides; an <strong>Opponent</strong> attacks the channel.</p>
       <p><em>[Walkthrough] Alice (Sender) sends funds to Bob (Receiver) via the public Internet (Channel). She applies encryption/signatures (Transformation) and keys (Secret Info), verified by a Certificate Authority (Trusted Third Party). Mallory (Opponent) attempts to intercept or alter the message.</em></p>
-      <p><strong>Network Access Security Model:</strong> Gatekeeper functions (passwords/firewalls) to deny access, and internal security controls (monitoring) to detect bypassed defenses.</p>` },
+      <p><strong>Network Access Security Model:</strong> Gatekeeper functions (passwords/firewalls) to deny access, and internal security controls (monitoring) to detect bypassed defenses.</p>`
+        },
         {
-            id: "x800", title: "X.800 Architecture", content: `
+            id: "x800",
+            title: "X.800 Architecture",
+            content: `
       <p><strong>Attacks → are countered by → Services → are implemented by → Mechanisms.</strong></p>
       <p><strong>Five Categories of Security Services:</strong></p>
       <div class="table-wrap"><table>
@@ -348,9 +492,12 @@ const SUMMARY = {
           <tr><td>Sender cannot deny</td><td>Non-repudiation</td><td>Digital Signature</td></tr>
           <tr><td>Authorized relay only</td><td>Access Control</td><td>Access-control lists</td></tr>
         </tbody>
-      </table></div>` },
+      </table></div>`
+        },
         {
-            id: "standards", title: "Standards &amp; Frameworks", content: `
+            id: "standards",
+            title: "Standards &amp; Frameworks",
+            content: `
       <div class="table-wrap"><table>
         <thead><tr><th>Standard/Framework</th><th>Description</th></tr></thead>
         <tbody>
@@ -361,7 +508,8 @@ const SUMMARY = {
           <tr><td>PCI DSS</td><td>Defines security requirements for credit-card information.</td></tr>
         </tbody>
       </table></div>
-      <p style="margin-top:12px">Sector-specific rules include HIPAA, SOC 2, and local laws like Egypt Law 151. Standards define the vocabulary and dictate deployment — inseparable from technical skill.</p>` }
+      <p style="margin-top:12px">Sector-specific rules include HIPAA, SOC 2, and local laws like Egypt Law 151. Standards define the vocabulary and dictate deployment — inseparable from technical skill.</p>`
+        }
     ],
     ar: [
         { id: "course-info", title: "معلومات المقرر", content: `<ul><li><strong>المقرر:</strong> IT313 — أمن المعلومات والشبكات الحاسوبية</li><li><strong>المتطلب السابق:</strong> أساسيات تكنولوجيا المعلومات</li><li><strong>المحاضر:</strong> د. مروة سلامة</li><li><strong>الفصل:</strong> الفصل الأول — مقدمة في أمن المعلومات والشبكات</li></ul>` },
@@ -393,9 +541,10 @@ const SUMMARY = {
 };
 
 /* ---------- 4. CASE STUDIES (20) ---------- */
-const CASES = [
-    {
-        id: 1, difficulty: "easy", category: "CIA Triad",
+const CASES = [{
+        id: 1,
+        difficulty: "easy",
+        category: "CIA Triad",
         scenario: { en: "A hospital employee shares a patient's full medical history with a friend outside the hospital.", ar: "موظف في مستشفى يشارك تاريخ مريض طبي كامل مع صديق خارج المستشفى." },
         question: { en: "Which element of the CIA triad was primarily violated?", ar: "أي عنصر من ثالوث CIA تم انتهاكه بشكل أساسي؟" },
         options: [{ en: "Confidentiality", ar: "السرية" }, { en: "Integrity", ar: "السلامة" }, { en: "Availability", ar: "التوافر" }, { en: "Non-repudiation", ar: "عدم الإنكار" }],
@@ -404,7 +553,9 @@ const CASES = [
         related: { en: "Explain the CIA triad.", ar: "شرح ثالوث CIA." }
     },
     {
-        id: 2, difficulty: "easy", category: "CIA Triad",
+        id: 2,
+        difficulty: "easy",
+        category: "CIA Triad",
         scenario: { en: "A hospital database is encrypted by ransomware. Doctors cannot access patient records during an emergency.", ar: "قاعدة بيانات مستشفى مشفّرة ببرامج فدية. الأطباء لا يستطيعون الوصول لسجلات المرضى في حالة طوارئ." },
         question: { en: "Which CIA element was primarily affected?", ar: "أي عنصر CIA تأثر بشكل أساسي؟" },
         options: [{ en: "Confidentiality", ar: "السرية" }, { en: "Integrity", ar: "السلامة" }, { en: "Availability", ar: "التوافر" }, { en: "Authenticity", ar: "الأصالة" }],
@@ -413,7 +564,9 @@ const CASES = [
         related: { en: "Explain the CIA triad.", ar: "شرح ثالوث CIA." }
     },
     {
-        id: 3, difficulty: "medium", category: "CIA Triad",
+        id: 3,
+        difficulty: "medium",
+        category: "CIA Triad",
         scenario: { en: "An attacker modifies the blood type field in a patient's electronic record from A+ to O-.", ar: "مهاجم يعدل حقل فصيلة الدم في السجل الإلكتروني للمريض من A+ إلى O-." },
         question: { en: "Which CIA element was violated?", ar: "أي عنصر CIA تم انتهاكه؟" },
         options: [{ en: "Availability", ar: "التوافر" }, { en: "Integrity", ar: "السلامة" }, { en: "Confidentiality", ar: "السرية" }, { en: "Accountability", ar: "المساءلة" }],
@@ -422,7 +575,9 @@ const CASES = [
         related: { en: "Explain the CIA triad.", ar: "شرح ثالوث CIA." }
     },
     {
-        id: 4, difficulty: "medium", category: "Extended Objectives",
+        id: 4,
+        difficulty: "medium",
+        category: "Extended Objectives",
         scenario: { en: "A manager sends an email approving a $50,000 transfer. Later, he claims he never sent that email.", ar: "مدير يرسل بريداً يوافق على تحويل 50,000 دولار. لاحقاً يدّعي أنه لم يرسل ذلك البريد." },
         question: { en: "Which extended security objective is needed to prevent this denial?", ar: "أي هدف أمني موسع مطلوب لمنع هذا الإنكار؟" },
         options: [{ en: "Confidentiality", ar: "السرية" }, { en: "Non-repudiation", ar: "عدم الإنكار" }, { en: "Availability", ar: "التوافر" }, { en: "Least privilege", ar: "الحد الأدنى من الصلاحيات" }],
@@ -431,7 +586,9 @@ const CASES = [
         related: { en: "Explain extended security objectives.", ar: "شرح الأهداف الأمنية الموسعة." }
     },
     {
-        id: 5, difficulty: "easy", category: "Extended Objectives",
+        id: 5,
+        difficulty: "easy",
+        category: "Extended Objectives",
         scenario: { en: "A banking app verifies the user's identity via a one-time code sent to their phone before allowing login.", ar: "تطبيق بنكي يتحقق من هوية المستخدم عبر رمز لمرة واحدة يُرسل لهاتفه قبل السماح بالدخول." },
         question: { en: "Which extended security objective is demonstrated?", ar: "أي هدف أمني موسع يظهر هنا؟" },
         options: [{ en: "Authenticity", ar: "الأصالة" }, { en: "Confidentiality", ar: "السرية" }, { en: "Availability", ar: "التوافر" }, { en: "Least privilege", ar: "الحد الأدنى من الصلاحيات" }],
@@ -440,7 +597,9 @@ const CASES = [
         related: { en: "Explain extended security objectives.", ar: "شرح الأهداف الأمنية الموسعة." }
     },
     {
-        id: 6, difficulty: "easy", category: "Threats/Vulns/Risks",
+        id: 6,
+        difficulty: "easy",
+        category: "Threats/Vulns/Risks",
         scenario: { en: "A company uses outdated software with a known unpatched vulnerability.", ar: "شركة تستخدم برنامجاً قديماً بثغرة معروفة غير مصححة." },
         question: { en: "What best describes the unpatched software?", ar: "ما الوصف الأنسب للبرنامج غير المصحح؟" },
         options: [{ en: "A threat", ar: "تهديد" }, { en: "A vulnerability", ar: "ثغرة" }, { en: "A risk", ar: "مخاطرة" }, { en: "An attack", ar: "هجوم" }],
@@ -449,7 +608,9 @@ const CASES = [
         related: { en: "Differentiate threats, vulnerabilities, risks, and attacks.", ar: "التفريق بين التهديدات والثغرات والمخاطر والهجمات." }
     },
     {
-        id: 7, difficulty: "medium", category: "Threats/Vulns/Risks",
+        id: 7,
+        difficulty: "medium",
+        category: "Threats/Vulns/Risks",
         scenario: { en: "A hacker knows about a company's unpatched server and plans to exploit it.", ar: "مهاجم يعلم بخادم شركة غير مصحح ويخطط لاستغلاله." },
         question: { en: "What is the hacker in this context?", ar: "ما هو المهاجم في هذا السياق؟" },
         options: [{ en: "A vulnerability", ar: "ثغرة" }, { en: "A threat", ar: "تهديد" }, { en: "A risk", ar: "مخاطرة" }, { en: "A policy", ar: "سياسة" }],
@@ -458,7 +619,9 @@ const CASES = [
         related: { en: "Differentiate threats, vulnerabilities, risks, and attacks.", ar: "التفريق بين التهديدات والثغرات والمخاطر والهجمات." }
     },
     {
-        id: 8, difficulty: "easy", category: "Malware",
+        id: 8,
+        difficulty: "easy",
+        category: "Malware",
         scenario: { en: "A program copies itself and spreads to thousands of computers over the network without any user clicking.", ar: "برنامج ينسخ نفسه وينتشر لآلاف الحواسيب عبر الشبكة دون أي نقر من المستخدم." },
         question: { en: "What type of malware is this?", ar: "ما نوع البرمجية الخبيثة هذه؟" },
         options: [{ en: "Virus", ar: "فيروس" }, { en: "Worm", ar: "دودة" }, { en: "Trojan", ar: "حصان طروادة" }, { en: "Spyware", ar: "برنامج تجسس" }],
@@ -467,7 +630,9 @@ const CASES = [
         related: { en: "Identify malware categories.", ar: "التعرف على فئات البرمجيات الخبيثة." }
     },
     {
-        id: 9, difficulty: "medium", category: "Malware",
+        id: 9,
+        difficulty: "medium",
+        category: "Malware",
         scenario: { en: "An email attachment disguised as an invoice encrypts all files on the user's PC and demands Bitcoin.", ar: "مرفق بريد يتنكر كفاتورة يشفر كل ملفات جهاز المستخدم ويطلب بيتكوين." },
         question: { en: "What best describes this malware?", ar: "ما الوصف الأنسب لهذه البرمجية؟" },
         options: [{ en: "A worm", ar: "دودة" }, { en: "A rootkit", ar: "Rootkit" }, { en: "Ransomware payload", ar: "حملة برامج فدية" }, { en: "A botnet agent", ar: "وكيل Botnet" }],
@@ -476,7 +641,9 @@ const CASES = [
         related: { en: "Identify malware categories.", ar: "التعرف على فئات البرمجيات الخبيثة." }
     },
     {
-        id: 10, difficulty: "easy", category: "Social Engineering",
+        id: 10,
+        difficulty: "easy",
+        category: "Social Engineering",
         scenario: { en: "An attacker calls an employee pretending to be from IT support and asks for the password to 'fix a server issue'.", ar: "مهاجم يتصل بموظف متنكراً كدعم تقني ويطلب كلمة المرور 'لإصلاح مشكلة في الخادم'." },
         question: { en: "What type of attack is this?", ar: "ما نوع هذا الهجوم؟" },
         options: [{ en: "DDoS", ar: "DDoS" }, { en: "Social engineering (pretexting)", ar: "هندسة اجتماعية (ذرائع)" }, { en: "Packet sniffing", ar: "تنصت على الحزم" }, { en: "Zero-day exploit", ar: "استغلال Zero-day" }],
@@ -485,7 +652,9 @@ const CASES = [
         related: { en: "Identify social-engineering categories.", ar: "التعرف على فئات الهندسة الاجتماعية." }
     },
     {
-        id: 11, difficulty: "medium", category: "Social Engineering",
+        id: 11,
+        difficulty: "medium",
+        category: "Social Engineering",
         scenario: { en: "An executive receives an email that looks like it's from the CEO, asking urgently for a wire transfer to a new vendor.", ar: "مدير تنفيذي يستلم بريداً يبدو من المدير العام يطلب بشكل عاجل تحويلاً لمورّد جديد." },
         question: { en: "What type of attack is this?", ar: "ما نوع هذا الهجوم؟" },
         options: [{ en: "Phishing", ar: "تصيد" }, { en: "Spear phishing / Business Email Compromise", ar: "تصيد مستهدف / اختراق بريد الأعمال" }, { en: "Baiting", ar: "إغراء" }, { en: "Tailgating", ar: "تتبع" }],
@@ -494,7 +663,9 @@ const CASES = [
         related: { en: "Identify social-engineering categories.", ar: "التعرف على فئات الهندسة الاجتماعية." }
     },
     {
-        id: 12, difficulty: "medium", category: "Passive vs Active",
+        id: 12,
+        difficulty: "medium",
+        category: "Passive vs Active",
         scenario: { en: "An attacker captures network traffic to analyze communication patterns without altering any packets.", ar: "مهاجم يلتقط حركة الشبكة لتحليل أنماط الاتصال دون تغيير أي حزم." },
         question: { en: "What type of attack is this?", ar: "ما نوع هذا الهجوم؟" },
         options: [{ en: "Active — modification", ar: "نشط — تعديل" }, { en: "Passive — traffic analysis", ar: "سلبي — تحليل حركة المرور" }, { en: "Active — DoS", ar: "نشط — حجب خدمة" }, { en: "Active — replay", ar: "نشط — إعادة تشغيل" }],
@@ -503,7 +674,9 @@ const CASES = [
         related: { en: "Classify passive vs. active attacks.", ar: "تصنيف الهجمات السلبية والنشطة." }
     },
     {
-        id: 13, difficulty: "medium", category: "Passive vs Active",
+        id: 13,
+        difficulty: "medium",
+        category: "Passive vs Active",
         scenario: { en: "An attacker intercepts a valid authentication packet and re-sends it later to impersonate the user.", ar: "مهاجم يعترض حزمة مصادقة صالحة ويعيد إرسالها لاحقاً لانتحال هوية المستخدم." },
         question: { en: "What type of attack is this?", ar: "ما نوع هذا الهجوم؟" },
         options: [{ en: "Passive — sniffing", ar: "سلبي — تنصت" }, { en: "Active — replay", ar: "نشط — إعادة تشغيل" }, { en: "Passive — traffic analysis", ar: "سلبي — تحليل حركة المرور" }, { en: "Active — DoS", ar: "نشط — حجب خدمة" }],
@@ -512,7 +685,9 @@ const CASES = [
         related: { en: "Classify passive vs. active attacks.", ar: "تصنيف الهجمات السلبية والنشطة." }
     },
     {
-        id: 14, difficulty: "easy", category: "Threat Actors",
+        id: 14,
+        difficulty: "easy",
+        category: "Threat Actors",
         scenario: { en: "A teenager downloads a free hacking tool and defaces a small website for fun.", ar: "مراهق يحمّل أداة اختراق مجانية ويشوه موقعاً صغيراً للمتعة." },
         question: { en: "Which threat actor category does this fit?", ar: "أي فئة من الفاعلين الخبثاء تناسب هذا؟" },
         options: [{ en: "Nation-state", ar: "دولة قومية" }, { en: "Script kiddie", ar: "Script kiddie" }, { en: "Hacktivist", ar: "Hacktivist" }, { en: "Insider", ar: "داخلي" }],
@@ -521,7 +696,9 @@ const CASES = [
         related: { en: "Identify threat actors.", ar: "التعرف على الفاعلين الخبثاء." }
     },
     {
-        id: 15, difficulty: "medium", category: "Threat Actors",
+        id: 15,
+        difficulty: "medium",
+        category: "Threat Actors",
         scenario: { en: "An employee with legitimate admin access intentionally deletes sensitive files after being fired.", ar: "موظف لديه وصول إداري شرعي يحذف ملفات حساسة عمداً بعد طرده." },
         question: { en: "What type of insider threat is this?", ar: "ما نوع التهديد الداخلي هذا؟" },
         options: [{ en: "Negligent insider", ar: "داخلي مهمل" }, { en: "Malicious insider", ar: "داخلي خبيث" }, { en: "Script kiddie", ar: "Script kiddie" }, { en: "Hacktivist", ar: "Hacktivist" }],
@@ -530,7 +707,9 @@ const CASES = [
         related: { en: "Differentiate malicious vs. negligent insiders.", ar: "التفريق بين الداخلي الخبيث والمهمل." }
     },
     {
-        id: 16, difficulty: "hard", category: "X.800",
+        id: 16,
+        difficulty: "hard",
+        category: "X.800",
         scenario: { en: "A messaging app needs to guarantee that only the intended recipient can read the message.", ar: "تطبيق مراسلة يحتاج لضمان أن المستلم المقصود فقط يمكنه قراءة الرسالة." },
         question: { en: "Which X.800 service and mechanism best fit?", ar: "أي خدمة وآلية X.800 تناسب أكثر؟" },
         options: [{ en: "Authentication + Digital Signature", ar: "المصادقة + التوقيع الرقمي" }, { en: "Data Confidentiality + Encipherment", ar: "سرية البيانات + التشفير" }, { en: "Non-repudiation + Access Control", ar: "عدم الإنكار + التحكم في الوصول" }, { en: "Integrity + Audit Trail", ar: "السلامة + سجل التدقيق" }],
@@ -539,7 +718,9 @@ const CASES = [
         related: { en: "Explain ITU-T X.800 architecture.", ar: "شرح معمارية ITU-T X.800." }
     },
     {
-        id: 17, difficulty: "hard", category: "X.800",
+        id: 17,
+        difficulty: "hard",
+        category: "X.800",
         scenario: { en: "An email security system must ensure the sender cannot later deny sending a message.", ar: "نظام أمن بريد يجب أن يضمن أن المرسل لا يمكنه لاحقاً إنكار إرسال الرسالة." },
         question: { en: "Which X.800 service + mechanism applies?", ar: "أي خدمة وآلية X.800 تنطبق؟" },
         options: [{ en: "Confidentiality + Encipherment", ar: "السرية + التشفير" }, { en: "Non-repudiation + Digital Signature", ar: "عدم الإنكار + التوقيع الرقمي" }, { en: "Availability + Access Control", ar: "التوافر + التحكم في الوصول" }, { en: "Authentication + Hash", ar: "المصادقة + تجزئة" }],
@@ -548,7 +729,9 @@ const CASES = [
         related: { en: "Explain ITU-T X.800 architecture.", ar: "شرح معمارية ITU-T X.800." }
     },
     {
-        id: 18, difficulty: "medium", category: "Design Principles",
+        id: 18,
+        difficulty: "medium",
+        category: "Design Principles",
         scenario: { en: "A company uses a single admin account with full privileges for all IT staff — including interns.", ar: "شركة تستخدم حساب مدير واحد بصلاحيات كاملة لكل طاقم تقنية المعلومات — بما في ذلك المتدربين." },
         question: { en: "Which principle is being violated?", ar: "أي مبدأ يتم انتهاكه؟" },
         options: [{ en: "Open Design", ar: "التصميم المفتوح" }, { en: "Least Privilege", ar: "الحد الأدنى من الصلاحيات" }, { en: "Complete Mediation", ar: "الوساطة الكاملة" }, { en: "Fail-Safe Defaults", ar: "الافتراضات الآمنة عند الفشل" }],
@@ -557,7 +740,9 @@ const CASES = [
         related: { en: "Explain Least Privilege.", ar: "شرح الحد الأدنى من الصلاحيات." }
     },
     {
-        id: 19, difficulty: "easy", category: "Legal/Ethics",
+        id: 19,
+        difficulty: "easy",
+        category: "Legal/Ethics",
         scenario: { en: "A student hacks his university's grading system 'just to show it's insecure', without permission.", ar: "طالب يخترق نظام درجات جامعته 'فقط ليثبت أنه غير آمن'، دون إذن." },
         question: { en: "Under Egypt's Law 175/2018, how is this classified?", ar: "وفق القانون المصري 175/2018، كيف يُصنَّف هذا؟" },
         options: [{ en: "Ethical hacking", ar: "اختراق أخلاقي" }, { en: "A criminal offense", ar: "جريمة جنائية" }, { en: "Allowed for students", ar: "مسموح للطلاب" }, { en: "A minor violation", ar: "مخالفة بسيطة" }],
@@ -566,7 +751,9 @@ const CASES = [
         related: { en: "Explain legal and ethical considerations.", ar: "شرح الاعتبارات القانونية والأخلاقية." }
     },
     {
-        id: 20, difficulty: "hard", category: "APT/Attack Chain",
+        id: 20,
+        difficulty: "hard",
+        category: "APT/Attack Chain",
         scenario: { en: "An attacker spends months inside a government network, moving slowly and quietly exfiltrating small amounts of data daily.", ar: "مهاجم يقضي شهوراً داخل شبكة حكومية، يتحرك ببطء وهدوء ويسرّب كميات صغيرة يومياً." },
         question: { en: "What best describes this attack?", ar: "ما الوصف الأنسب لهذا الهجوم؟" },
         options: [{ en: "A DDoS attack", ar: "هجوم DDoS" }, { en: "Advanced Persistent Threat (APT)", ar: "تهديد متقدم مستمر (APT)" }, { en: "A single phishing email", ar: "بريد تصيد واحد" }, { en: "A script kiddie defacement", ar: "تشويه من Script kiddie" }],
@@ -577,93 +764,107 @@ const CASES = [
 ];
 
 /* ---------- 5. QUIZ (15) ---------- */
-const QUIZ = [
-    {
-        id: 1, q: { en: "Which of the following is the broadest term encompassing information, computer, and network security?", ar: "أي مما يلي هو المصطلح الأشمل الذي يشمل أمن المعلومات والحاسوب والشبكات؟" },
+const QUIZ = [{
+        id: 1,
+        q: { en: "Which of the following is the broadest term encompassing information, computer, and network security?", ar: "أي مما يلي هو المصطلح الأشمل الذي يشمل أمن المعلومات والحاسوب والشبكات؟" },
         opts: [{ en: "Information Security", ar: "أمن المعلومات" }, { en: "Computer Security", ar: "أمن الحاسوب" }, { en: "Cybersecurity", ar: "الأمن السيبراني" }, { en: "Network Security", ar: "أمن الشبكات" }],
         correct: 2,
         exp: { en: "Cybersecurity is the broadest term, addressing critical infrastructure, user safety, and geopolitical dimensions.", ar: "الأمن السيبراني هو المصطلح الأشمل، ويتناول البنية التحتية الحيوية وسلامة المستخدم والأبعاد الجيوسياسية." }
     },
     {
-        id: 2, q: { en: "True or False: 'Availability' in the CIA triad ensures data is not altered by unauthorized parties.", ar: "صح أم خطأ: 'التوافر' في ثالوث CIA يضمن عدم تعديل البيانات من قبل أطراف غير مصرح لها." },
+        id: 2,
+        q: { en: "True or False: 'Availability' in the CIA triad ensures data is not altered by unauthorized parties.", ar: "صح أم خطأ: 'التوافر' في ثالوث CIA يضمن عدم تعديل البيانات من قبل أطراف غير مصرح لها." },
         opts: [{ en: "True", ar: "صح" }, { en: "False", ar: "خطأ" }],
         correct: 1,
         exp: { en: "False. Availability ensures timely access to systems and data. Integrity ensures data is not altered without authorization.", ar: "خطأ. التوافر يضمن الوصول في الوقت المناسب للأنظمة والبيانات. السلامة تضمن عدم تعديل البيانات بدون تصريح." }
     },
     {
-        id: 3, q: { en: "A weakness in a system that could be exploited is called a:", ar: "الضعف في نظام يمكن استغلاله يُسمى:" },
+        id: 3,
+        q: { en: "A weakness in a system that could be exploited is called a:", ar: "الضعف في نظام يمكن استغلاله يُسمى:" },
         opts: [{ en: "Threat", ar: "تهديد" }, { en: "Vulnerability", ar: "ثغرة" }, { en: "Risk", ar: "مخاطرة" }, { en: "Attack", ar: "هجوم" }],
         correct: 1,
         exp: { en: "A vulnerability is a weakness in design, implementation, or operation that could be exploited.", ar: "الثغرة ضعف في التصميم أو التنفيذ أو التشغيل يمكن استغلاله." }
     },
     {
-        id: 4, q: { en: "Which of the following is a PASSIVE attack?", ar: "أي مما يلي هجوم سلبي؟" },
+        id: 4,
+        q: { en: "Which of the following is a PASSIVE attack?", ar: "أي مما يلي هجوم سلبي؟" },
         opts: [{ en: "Masquerade", ar: "تمويه" }, { en: "Replay", ar: "إعادة تشغيل" }, { en: "Traffic analysis", ar: "تحليل حركة المرور" }, { en: "Denial of Service", ar: "حجب الخدمة" }],
         correct: 2,
         exp: { en: "Passive attacks (release of message contents, traffic analysis) only observe. Masquerade, replay, and DoS are active.", ar: "الهجمات السلبية (الكشف عن محتوى الرسالة، تحليل حركة المرور) تراقب فقط. التمويه وإعادة التشغيل وDoS نشطة." }
     },
     {
-        id: 5, q: { en: "Which malware type requires human action to propagate?", ar: "أي نوع من البرمجيات الخبيثة يتطلب إجراءً بشرياً للانتشار؟" },
+        id: 5,
+        q: { en: "Which malware type requires human action to propagate?", ar: "أي نوع من البرمجيات الخبيثة يتطلب إجراءً بشرياً للانتشار؟" },
         opts: [{ en: "Worm", ar: "دودة" }, { en: "Virus", ar: "فيروس" }, { en: "Rootkit", ar: "Rootkit" }, { en: "Botnet agent", ar: "وكيل Botnet" }],
         correct: 1,
         exp: { en: "Viruses need human action to propagate; worms spread autonomously. Ransomware is a payload, not a propagation method.", ar: "الفيروسات تحتاج إجراءً بشرياً للانتشار؛ الديدان تنتشر تلقائياً. برامج الفدية حملة وليست وسيلة انتشار." }
     },
     {
-        id: 6, q: { en: "Which framework organizes functions as: Identify, Protect, Detect, Respond, Recover?", ar: "أي إطار ينظم الوظائف كالتالي: التعرف، الحماية، الكشف، الاستجابة، التعافي؟" },
+        id: 6,
+        q: { en: "Which framework organizes functions as: Identify, Protect, Detect, Respond, Recover?", ar: "أي إطار ينظم الوظائف كالتالي: التعرف، الحماية، الكشف، الاستجابة، التعافي؟" },
         opts: [{ en: "ISO/IEC 27001", ar: "ISO/IEC 27001" }, { en: "NIST CSF", ar: "NIST CSF" }, { en: "ITU-T X.800", ar: "ITU-T X.800" }, { en: "PCI DSS", ar: "PCI DSS" }],
         correct: 1,
         exp: { en: "NIST CSF organizes functions into Identify, Protect, Detect, Respond, Recover.", ar: "NIST CSF ينظم الوظائف في: التعرف، الحماية، الكشف، الاستجابة، التعافي." }
     },
     {
-        id: 7, q: { en: "Which X.800 mechanism is classified as PERVASIVE?", ar: "أي آلية X.800 تُصنف كـ 'منتشرة'؟" },
+        id: 7,
+        q: { en: "Which X.800 mechanism is classified as PERVASIVE?", ar: "أي آلية X.800 تُصنف كـ 'منتشرة'؟" },
         opts: [{ en: "Encipherment", ar: "التشفير" }, { en: "Digital Signature", ar: "التوقيع الرقمي" }, { en: "Security audit trail", ar: "سجل التدقيق الأمني" }, { en: "Access control", ar: "التحكم في الوصول" }],
         correct: 2,
         exp: { en: "Pervasive mechanisms: trusted functionality, security label, event detection, security audit trail. The others are specific mechanisms.", ar: "الآليات المنتشرة: الوظائف الموثوقة، التسمية الأمنية، كشف الأحداث، سجل التدقيق الأمني. الباقي آليات محددة." }
     },
     {
-        id: 8, q: { en: "Which principle states: 'Security must not depend on design secrecy, only on key/credential secrecy'?", ar: "أي مبدأ ينص: 'الأمن لا يعتمد على سرية التصميم، فقط على سرية المفتاح/بيانات الاعتماد'؟" },
+        id: 8,
+        q: { en: "Which principle states: 'Security must not depend on design secrecy, only on key/credential secrecy'?", ar: "أي مبدأ ينص: 'الأمن لا يعتمد على سرية التصميم، فقط على سرية المفتاح/بيانات الاعتماد'؟" },
         opts: [{ en: "Fail-Safe Defaults", ar: "الافتراضات الآمنة عند الفشل" }, { en: "Open Design", ar: "التصميم المفتوح" }, { en: "Complete Mediation", ar: "الوساطة الكاملة" }, { en: "Least Common Mechanism", ar: "الحد الأدنى من الآلية المشتركة" }],
         correct: 1,
         exp: { en: "Open Design: security must not depend on design secrecy, only on key/credential secrecy.", ar: "التصميم المفتوح: الأمن لا يعتمد على سرية التصميم، فقط على سرية المفتاح/بيانات الاعتماد." }
     },
     {
-        id: 9, q: { en: "Which scenario best describes 'tailgating'?", ar: "أي سيناريو يصف 'التتبع'؟" },
+        id: 9,
+        q: { en: "Which scenario best describes 'tailgating'?", ar: "أي سيناريو يصف 'التتبع'؟" },
         opts: [{ en: "Sending fake invoices by email", ar: "إرسال فواتير مزيفة بالبريد" }, { en: "Following an authorized person through a secure door", ar: "اتباع شخص مصرح عبر باب آمن" }, { en: "Leaving an infected USB in a parking lot", ar: "ترك USB مصاب في موقف سيارات" }, { en: "Calling an employee pretending to be IT", ar: "الاتصال بموظف متنكراً كدعم تقني" }],
         correct: 1,
         exp: { en: "Tailgating = physical access by following an authorized person. Baiting = leaving a lure (e.g., USB). Pretexting = fabricating a scenario.", ar: "التتبع = وصول مادي باتباع شخص مصرح. الإغراء = ترك طُعم (مثل USB). الذرائع = اختلاق سيناريو." }
     },
     {
-        id: 10, q: { en: "The 7-step attack chain ends with which step?", ar: "سلسلة الهجوم ذات السبع خطوات تنتهي بأي خطوة؟" },
+        id: 10,
+        q: { en: "The 7-step attack chain ends with which step?", ar: "سلسلة الهجوم ذات السبع خطوات تنتهي بأي خطوة؟" },
         opts: [{ en: "Installation", ar: "التثبيت" }, { en: "Command and Control", ar: "التحكم والسيطرة" }, { en: "Actions on Objectives", ar: "الإجراءات على الأهداف" }, { en: "Exploitation", ar: "الاستغلال" }],
         correct: 2,
         exp: { en: "Steps: Reconnaissance → Weaponization → Delivery → Exploitation → Installation → Command and Control → Actions on Objectives.", ar: "الخطوات: الاستطلاع ← التسليح ← التسليم ← الاستغلال ← التثبيت ← التحكم والسيطرة ← الإجراءات على الأهداف." }
     },
     {
-        id: 11, q: { en: "Which law criminalizes unauthorized access to information systems in Egypt?", ar: "أي قانون يجرّم الوصول غير المصرح به لأنظمة المعلومات في مصر؟" },
+        id: 11,
+        q: { en: "Which law criminalizes unauthorized access to information systems in Egypt?", ar: "أي قانون يجرّم الوصول غير المصرح به لأنظمة المعلومات في مصر؟" },
         opts: [{ en: "Egypt Law 151", ar: "القانون المصري 151" }, { en: "Egypt Law 175 of 2018", ar: "القانون المصري 175 لسنة 2018" }, { en: "GDPR", ar: "GDPR" }, { en: "HIPAA", ar: "HIPAA" }],
         correct: 1,
         exp: { en: "Egypt's Anti-Cyber and Information Technology Crimes Law (Law No. 175 of 2018) criminalizes unauthorized access to information systems.", ar: "قانون مكافحة جرائم تقنية المعلومات المصري (قانون 175 لسنة 2018) يجرّم الوصول غير المصرح به لأنظمة المعلومات." }
     },
     {
-        id: 12, q: { en: "A hacker group defaces websites of companies they consider unethical. What threat actor are they?", ar: "مجموعة قراصنة يشوهون مواقع شركات يعتبرونها غير أخلاقية. ما فاعل التهديد؟" },
+        id: 12,
+        q: { en: "A hacker group defaces websites of companies they consider unethical. What threat actor are they?", ar: "مجموعة قراصنة يشوهون مواقع شركات يعتبرونها غير أخلاقية. ما فاعل التهديد؟" },
         opts: [{ en: "Script kiddies", ar: "Script kiddies" }, { en: "Hacktivists", ar: "Hacktivists" }, { en: "Nation-states", ar: "دول قومية" }, { en: "Insiders", ar: "داخليون" }],
         correct: 1,
         exp: { en: "Hacktivists are driven by ideological motives. Cybercriminals seek financial gain; nation-states conduct espionage.", ar: "Hacktivists مدفوعون بدوافع أيديولوجية. المجرمون السيبرانيون يبحثون عن مكسب مالي؛ الدول القومية تقوم بالتجسس." }
     },
     {
-        id: 13, q: { en: "What does 'Defense in Depth' mean?", ar: "ماذا يعني 'الدفاع في العمق'؟" },
+        id: 13,
+        q: { en: "What does 'Defense in Depth' mean?", ar: "ماذا يعني 'الدفاع في العمق'؟" },
         opts: [{ en: "Using one very strong firewall", ar: "استخدام جدار ناري واحد قوي جداً" }, { en: "Layering multiple independent mechanisms so failure of one doesn't compromise all", ar: "تطبيق طبقات متعددة مستقلة بحيث لا يؤدي فشل طبقة لاختراق كامل" }, { en: "Encrypting all data at rest", ar: "تشفير كل البيانات المخزنة" }, { en: "Training users once per year", ar: "تدريب المستخدمين مرة سنوياً" }],
         correct: 1,
         exp: { en: "Defense in Depth layers multiple independent mechanisms so failure of one layer does not result in complete compromise.", ar: "الدفاع في العمق يطبّق طبقات متعددة مستقلة بحيث لا يؤدي فشل طبقة واحدة إلى اختراق كامل." }
     },
     {
-        id: 14, q: { en: "Which of the following is NOT a category in the X.800 five security services?", ar: "أي مما يلي ليس فئة من الخدمات الأمنية الخمس في X.800؟" },
+        id: 14,
+        q: { en: "Which of the following is NOT a category in the X.800 five security services?", ar: "أي مما يلي ليس فئة من الخدمات الأمنية الخمس في X.800؟" },
         opts: [{ en: "Authentication", ar: "المصادقة" }, { en: "Data Confidentiality", ar: "سرية البيانات" }, { en: "Availability", ar: "التوافر" }, { en: "Non-repudiation", ar: "عدم الإنكار" }],
         correct: 2,
         exp: { en: "X.800's five services: Authentication, Access Control, Data Confidentiality, Data Integrity, Non-repudiation. Availability is not one of the five (it's part of the CIA triad).", ar: "خدمات X.800 الخمس: المصادقة، التحكم في الوصول، سرية البيانات، سلامة البيانات، عدم الإنكار. التوافر ليس من الخمس (جزء من ثالوث CIA)." }
     },
     {
-        id: 15, q: { en: "A short, small software update from a trusted vendor is compromised to install malware. What type of incident is this?", ar: "تحديث برمجي قصير من مورّد موثوق يتم اختراقه لتثبيت برمجية خبيثة. ما نوع الحادث؟" },
+        id: 15,
+        q: { en: "A short, small software update from a trusted vendor is compromised to install malware. What type of incident is this?", ar: "تحديث برمجي قصير من مورّد موثوق يتم اختراقه لتثبيت برمجية خبيثة. ما نوع الحادث؟" },
         opts: [{ en: "Phishing", ar: "تصيد" }, { en: "Supply-chain compromise", ar: "اختراق سلسلة التوريد" }, { en: "DDoS", ar: "DDoS" }, { en: "Tailgating", ar: "تتبع" }],
         correct: 1,
         exp: { en: "This matches the 2020 supply-chain compromise incident: compromise of a trusted software update mechanism.", ar: "هذا يطابق حادث اختراق سلسلة التوريد 2020: اختراق آلية تحديث برمجي موثوقة." }
@@ -678,7 +879,10 @@ function applyLang() {
     $('#langLabel').textContent = state.lang === 'en' ? 'AR' : 'EN';
     $$('[data-key]').forEach(el => { el.textContent = t(el.dataset.key); });
     $$('[data-key-ph]').forEach(el => { el.placeholder = t(el.dataset.keyPh); });
-    renderSummary(); renderCases(); renderQuizModes(); renderInfo();
+    renderSummary();
+    renderCases();
+    renderQuizModes();
+    renderInfo();
     localStorage.setItem('eg-lang', state.lang);
 }
 $('#langBtn').addEventListener('click', () => {
@@ -701,6 +905,7 @@ $('#themeBtn').addEventListener('click', () => {
 
 /* ---------- 8. TOAST ---------- */
 let toastTimer;
+
 function showToast(msg) {
     const el = $('#toast');
     el.textContent = msg;
@@ -718,7 +923,8 @@ window.addEventListener('scroll', () => {
     const p = (window.scrollY / h) * 100;
     $('#scroll-progress').style.width = p + '%';
     const btn = $('#scroll-top');
-    if (window.scrollY > 400) btn.classList.add('show'); else btn.classList.remove('show');
+    if (window.scrollY > 400) btn.classList.add('show');
+    else btn.classList.remove('show');
     // active link
     const sections = ['home', 'summary', 'cases', 'quiz', 'info'];
     let current = 'home';
@@ -735,7 +941,12 @@ $('#scroll-top').addEventListener('click', () => window.scrollTo({ top: 0, behav
 /* ---------- 10. REVEAL ---------- */
 function initReveal() {
     const io = new IntersectionObserver(entries => {
-        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('visible');
+                io.unobserve(e.target);
+            }
+        });
     }, { threshold: 0.12 });
     $$('.reveal').forEach(el => io.observe(el));
 }
@@ -761,7 +972,10 @@ function renderSummary() {
     $$('.accordion').forEach(acc => {
         const header = acc.querySelector('.accordion-header');
         const body = acc.querySelector('.accordion-body');
-        if (prevOpen.has(acc.dataset.id)) { acc.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+        if (prevOpen.has(acc.dataset.id)) {
+            acc.classList.add('open');
+            body.style.maxHeight = body.scrollHeight + 'px';
+        }
         header.addEventListener('click', () => {
             const isOpen = acc.classList.toggle('open');
             body.style.maxHeight = isOpen ? body.scrollHeight + 'px' : '0px';
@@ -934,65 +1148,66 @@ function startQuiz(mode) {
     renderQuiz();
 }
 
-function renderQuiz() {
-    if (quizIdx >= QUIZ.length) { renderQuizResult(); return; }
-    const q = QUIZ[quizOrder[quizIdx]];
-    const lang = state.lang;
-    const userAns = quizAnswers[q.id];
-    const showFeedback = quizMode === 'practice' && userAns !== undefined;
-    const pct = ((quizIdx + 1) / QUIZ.length) * 100;
+function renderQuiz(){
+  if (quizIdx >= QUIZ.length) { renderQuizResult(); return; }
+  const q = QUIZ[quizOrder[quizIdx]];
+  const lang = state.lang;
+  const userAns = quizAnswers[q.id];
+  
+  // التعديل هنا: التغذية الراجعة بتظهر لو المستخدم جاوب، في أي وضع
+  const showFeedback = userAns !== undefined;
+  const pct = ((quizIdx+1)/QUIZ.length)*100;
 
-    $('#quizRoot').innerHTML = `
+  $('#quizRoot').innerHTML = `
     <div class="quiz-shell">
       <div class="quiz-card">
         <div class="quiz-top">
           <div class="quiz-progress-wrap">
-            <div class="quiz-progress-text">${lang === 'en' ? 'Question' : 'سؤال'} ${quizIdx + 1} / ${QUIZ.length} · ${quizMode === 'practice' ? t('quizPractice') : t('quizExam')}</div>
+            <div class="quiz-progress-text">${lang==='en'?'Question':'سؤال'} ${quizIdx+1} / ${QUIZ.length} · ${quizMode==='practice'?t('quizPractice'):t('quizExam')}</div>
             <div class="quiz-bar"><span style="width:${pct}%"></span></div>
           </div>
         </div>
         <div class="quiz-q">${q.q[lang]}</div>
         <div class="answer-list" id="quizAnswers">
-          ${q.opts.map((o, i) => {
-        let cls = '';
-        if (showFeedback) {
-            if (i === q.correct) cls = 'correct';
-            else if (i === userAns) cls = 'wrong';
-        }
-        return `<button class="answer-btn ${cls}" data-i="${i}" ${showFeedback ? 'disabled' : ''}>
-              <span class="letter">${q.opts.length === 2 ? (i === 0 ? 'T' : 'F') : String.fromCharCode(65 + i)}</span>
+          ${q.opts.map((o,i)=>{
+            let cls = '';
+            if (showFeedback) {
+              if (i === q.correct) cls = 'correct';
+              else if (i === userAns) cls = 'wrong';
+            }
+            return `<button class="answer-btn ${cls}" data-i="${i}" ${showFeedback?'disabled':''}>
+              <span class="letter">${q.opts.length===2?(i===0?'T':'F'):String.fromCharCode(65+i)}</span>
               <span>${o[lang]}</span>
             </button>`;
-    }).join('')}
+          }).join('')}
         </div>
         ${showFeedback ? `<div class="explain show"><strong>${t('caseExplanation')}:</strong> ${q.exp[lang]}</div>` : ''}
         <div class="quiz-footer">
-          <button class="btn btn-outline" id="quizPrev" ${quizIdx === 0 ? 'disabled' : ''}>← ${t('quizPrev')}</button>
+          <button class="btn btn-outline" id="quizPrev" ${quizIdx===0?'disabled':''}>← ${t('quizPrev')}</button>
           <button class="btn btn-primary" id="quizNext">
-            ${quizIdx === QUIZ.length - 1 ? t('quizFinish') : t('quizNext') + ' →'}
+            ${quizIdx===QUIZ.length-1?t('quizFinish'):t('quizNext')+' →'}
           </button>
         </div>
       </div>
     </div>
   `;
 
-    $$('#quizAnswers .answer-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            quizAnswers[q.id] = +btn.dataset.i;
-            renderQuiz();
-        });
+  $$('#quizAnswers .answer-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      quizAnswers[q.id] = +btn.dataset.i;
+      renderQuiz(); // إعادة الرسم عشان تظهر الإجابة الصح فوراً
     });
-    const prev = $('#quizPrev'); if (prev) prev.addEventListener('click', () => { if (quizIdx > 0) { quizIdx--; renderQuiz(); } });
-    const next = $('#quizNext'); if (next) next.addEventListener('click', () => {
-        if (quizMode === 'exam' && quizIdx === QUIZ.length - 1) {
-            const unanswered = QUIZ.filter(x => quizAnswers[x.id] === undefined).length;
-            if (unanswered > 0 && !confirm(t('quizConfirmFinish'))) return;
-        }
-        quizIdx++;
-        renderQuiz();
-    });
+  });
+  const prev = $('#quizPrev'); if (prev) prev.addEventListener('click', () => { if (quizIdx>0){quizIdx--; renderQuiz();} });
+  const next = $('#quizNext'); if (next) next.addEventListener('click', () => {
+    if (quizMode === 'exam' && quizIdx === QUIZ.length-1) {
+      const unanswered = QUIZ.filter(x => quizAnswers[x.id] === undefined).length;
+      if (unanswered > 0 && !confirm(t('quizConfirmFinish'))) return;
+    }
+    quizIdx++;
+    renderQuiz();
+  });
 }
-
 function renderQuizResult() {
     const lang = state.lang;
     const correct = QUIZ.filter(q => quizAnswers[q.id] === q.correct).length;
